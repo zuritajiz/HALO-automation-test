@@ -1,0 +1,11 @@
+.idea
+frontend
+node_modules
+tmp
+.env
+/cypress/videos/
+.vscode
+.DS_STORE
+.eslintcache
+.env
+package-lock.json
