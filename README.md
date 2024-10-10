@@ -1,10 +1,10 @@
 # HALO-automation-test Cypress UI Testing Solution
 
-This repository contains a Cypress solution designed to cover some simple UI scenarios using a testing demo web.
+This repository contains a Cypress solution designed to cover some simple UI and API test using a testing demo web.
 
 ## Overview
 
-This solution aims to provide automated testing for E2E validations using Gherkin syntax to describe scenarios and steps.
+This solution aims to provide automated testing for E2E and API validations using Gherkin syntax to describe scenarios and steps.
 Also I've tried to use the most useful features of Cucumber and BDD like Scenarios Outline and Background on tests definitions.
 Page Object Model pattern was used to define site elements. This way it's easier to mantain and reuse code.
 ESLint plugin was set in order to analyze and get a prettier code syntax.
@@ -49,3 +49,12 @@ npx cypress run
 ```
 npx cypress open
 ```
+3. There are 2 scripts created to run E2E and API scenarios in Headless Mode.
+```
+npm run api
+```
+and
+```
+npm run e2e
+```
+These scripts starts Headless runs of the features that contains the chosen tag.
