@@ -1,3 +1,4 @@
+@E2E
 Feature: Products
 
 Background: Go to landing page

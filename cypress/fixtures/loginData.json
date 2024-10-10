@@ -1,4 +1,10 @@
 {
-  "usernames": ["standard_user", "locked_out_user", "problem_user", "performance_glitch_user", "error_user", "visual_user"],
-  "password": "secret_sauce"
+  "e2e": {
+    "usernames": ["standard_user", "locked_out_user", "problem_user", "performance_glitch_user", "error_user", "visual_user"],
+    "password": "secret_sauce"
+  },
+  "api": {
+    "username": "emilys",
+    "password": "emilyspass"
+  }
 }

@@ -1,3 +1,4 @@
+@E2E
 Feature: Login and Logout
 
 Background: Go to landing page

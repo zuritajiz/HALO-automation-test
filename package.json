@@ -4,8 +4,10 @@
   "description": "HALO Automation solution",
   "main": "index.js",
   "scripts": {
-    "start": "cypress open",
-    "lint": "npx eslint cypress --ext .js --cache"
+    "start": "npx cypress open",
+    "lint": "npx eslint cypress --ext .js --cache",
+    "api": "./node_modules/.bin/cypress run --spec 'cypress/e2e/**/*' -e TAGS=\"@SANITY and not @BUG and not @WIP\"",
+    "e2e": "./node_modules/.bin/cypress run --spec 'cypress/e2e/**/*' -e TAGS=\"@E2E and not @BUG and not @WIP\""
   },
   "author": "Juan Zurita",
   "devDependencies": {
