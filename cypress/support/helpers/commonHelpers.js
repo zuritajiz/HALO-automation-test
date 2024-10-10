@@ -66,7 +66,7 @@ const CommonHelpers = {
       case 'random text':
         return faker.random.alphaNumeric(8)
       case 'valid password':
-        return LoginData.password
+        return LoginData.e2e.password
       default:
         return dataText
     }

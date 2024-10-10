@@ -8,7 +8,7 @@ Given("I go to the site landing page", () => {
 })
 
 When("I login using {string} username", (username) => {
-    cy.login(username, LoginData.password)
+    cy.login(username, LoginData.e2e.password)
 })
 
 When("I login using {string} username and {string} password", (username, password) => {
